@@ -1,0 +1,2 @@
+company,website,contact_name,email,phone,channel,industry,lead_source_observed,missed_lead_signal,estimated_ticket,first_message_date,follow_up_1,follow_up_2,status,next_action,notes
+Example HVAC,https://example.com,Owner,owner@example.com,555-0100,Google Maps,HVAC,website form,no chatbot or instant reply,2500,,,,new,send first email,
