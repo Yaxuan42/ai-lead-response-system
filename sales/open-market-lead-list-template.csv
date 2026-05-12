@@ -1,0 +1,2 @@
+company,website,contact_name,email,phone,channel,segment,lead_source_observed,deal_value_signal,missed_followup_signal,owner_or_sales_owner,first_message_date,follow_up_1,follow_up_2,status,next_action,notes
+Example B2B Service,https://example.com,Founder,founder@example.com,,LinkedIn,B2B service,website contact form,projects likely above 20000,no instant response visible,founder,,,,new,send first message,

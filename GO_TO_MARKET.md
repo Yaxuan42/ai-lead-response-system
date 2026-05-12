@@ -1,115 +1,147 @@
-# Go To Market
+# Go To Market: AI 成交响应台
 
-Goal: close the first paid pilot for the AI lead-response system.
+Goal: close paid pilots for a horizontal lead-to-revenue workflow without locking into one industry.
 
 Primary offer:
 
-- Chinese market: `¥3,500` pilot, `¥800/month` maintenance.
-- English market: `$500` pilot, `$150/month` maintenance.
-- Delivery promise: one lead source, auto reply, lead scoring, owner alert, and follow-up queue in 7 days.
+- `¥8,800` opportunity-capture pilot.
+- `¥28,000` revenue desk setup for multi-source intake.
+- `¥3,000/month` growth support.
+- Delivery promise: connect one high-value inquiry source, reply within 60 seconds, qualify budget/timing/role, alert the owner, and maintain a follow-up queue in 7 days.
 
-## Ideal Customer
+## Positioning
 
-Target high-ticket local service businesses where one extra customer can pay for the pilot:
+这条路线不按行业切，而按成交经济性切。
 
-- HVAC, remodeling, plumbing, electrical, roofing, pest control.
-- Clinics, legal intake, education, real estate agents.
-- Businesses with a website form, email inbox, or social messages.
-- Businesses with slow replies, missed calls, or no CRM discipline.
+合格客户必须同时满足：
 
-Avoid:
+- 单笔成交价值足够高，最好一单能覆盖试点费。
+- 已经有咨询入口：官网表单、邮箱、私信、客服消息、广告落地页或社群私域。
+- 当前首次响应不稳定，或高价值咨询没有被优先处理。
+- 有人能接手跟进：老板、销售、顾问、客服主管或运营负责人。
+- 7 天内能拿到试点入口权限和复盘数据。
 
-- Low-ticket businesses where one lead is worth less than the setup fee.
-- Owners who want a full SaaS product before proving the workflow.
-- Teams that cannot give access to their form, inbox, or spreadsheet.
+先跳过：
 
-## Daily Outbound
+- 没有真实咨询入口的想法阶段项目。
+- 低客单、低复购、无法覆盖交付成本的业务。
+- 只想买“AI 概念”，但不能给入口和跟进负责人。
+- 需要先重做官网、CRM 或广告账户才可能见效的项目。
 
-Do this for 14 days:
+## Best First Segments
 
-1. Find 30 businesses per day from Google Maps, Yelp, LinkedIn, industry directories, or local business groups.
-2. Record them in `sales/lead-list-template.csv`.
-3. Send 20 emails and 10 LinkedIn/contact-form messages.
-4. Book calls only when the owner has a clear lead source and a missed-lead problem.
-5. Follow up on day 2, day 5, and day 9.
+不限行业，但优先从这些地方找钱：
 
-Success targets:
+- B2B 服务：咨询、外包、软件实施、数据服务、营销服务、财税法务。
+- 高客单咨询：留学、企业培训、职业教育、医疗美容、私域成交。
+- 交易型业务：房产、设备采购、加盟代理、渠道合作、大额定制。
+- 有广告投放的业务：百度、Google、抖音、小红书、LinkedIn 表单线索。
+- 有客服入口的业务：在线客服、企微、WhatsApp、网站聊天、邮箱询盘。
 
-- 300 contacted businesses.
-- 15 replies.
-- 5 discovery calls.
-- 1 paid pilot.
+核心判断：如果多抓住一个高意向咨询就可能产生 `¥20,000+` 毛利，值得联系。
+
+## Lead Sources
+
+每天找 40 个潜在客户，记录到 `sales/open-market-lead-list-template.csv`。
+
+渠道：
+
+- 搜索广告落地页：看是否有表单、企微、在线客服、预约按钮。
+- LinkedIn / 脉脉：找 B2B 服务、软件实施、增长服务负责人。
+- 小红书 / 抖音：找高客单咨询、私域转化和投放中的商家。
+- 行业目录：软件服务商、咨询公司、培训机构、代理商、渠道服务商。
+- 现有网络：任何正在买流量、收咨询、靠人跟进成交的团队。
+
+筛选字段：
+
+- 客单价或项目预算。
+- 当前咨询入口。
+- 首次响应体验。
+- 是否能识别预算、时机、角色和需求。
+- 是否有明确跟进负责人。
 
 ## First Message
 
-Subject: 让网站咨询 60 秒内被接住
+Subject: 你们的高价值咨询能否 60 秒内被接住？
 
 ```text
 你好，[姓名]，
 
-我看到 [公司名] 有网站/表单/私信入口。很多本地服务商的问题不是没有线索，而是客户刚咨询时没有及时回复，高价值线索也没有优先跟进。
+我在看 [公司名] 的咨询入口时，注意到你们有 [官网表单 / 私信 / 客服 / 邮箱]。
 
-我做一个 7 天上线的 AI 线索响应流程：
-- 新咨询 60 秒内先回复
-- 判断紧急程度和预估价值
-- 高价值线索提醒老板
-- 自动进入表格/CRM 跟进队列
+我做的是一个 7 天上线的 AI 成交响应台，不限定行业，只解决一个问题：
+高价值咨询刚进来时，先被回复、先被判断预算和时机、先提醒负责人跟进。
 
-这里是一个可操作演示：
-https://ai-lead-response-system-pink.vercel.app
+第一版会做四件事：
+- 60 秒内自动回复新咨询
+- 提取预算、需求、上线时间和决策角色
+- 高意向机会提醒负责人
+- 写入可复盘的跟进队列
 
-如果你愿意，我可以用 15 分钟判断你现在的线索入口是否适合做试点。
+演示在这里：
+https://ai-revenue-desk.vercel.app
+
+如果你愿意，我可以用 15 分钟看一下你们现在的咨询入口，判断是否适合做 7 天试点。
 ```
 
 ## Discovery Call
 
-Ask only questions that affect the pilot:
+只问会影响试点的问题：
 
-1. Your best lead source today is website form, phone, email, WeChat, or another channel?
-2. How fast do new inquiries usually get a first reply?
-3. What is one average closed customer worth?
-4. Which requests should the owner see immediately?
-5. Where should the lead queue live: Google Sheet, Feishu, Airtable, CRM, or email?
-6. Who approves the first auto-reply copy?
-
-Close the call with a concrete next step:
-
-```text
-This is a fit for a pilot. I can set up one lead source, scoring, auto-reply, owner alert, and a follow-up queue in 7 days.
-
-The pilot is ¥3,500 / $500. If it saves one missed high-value job, it pays for itself.
-
-I need access to [lead source], the reply rules, and the destination queue. I can start after the deposit.
-```
+1. 现在最主要的咨询入口是什么？
+2. 每周大概有多少条有效咨询？
+3. 平均首次回复需要多久？
+4. 单笔成交金额或毛利大概是多少？
+5. 你们怎么判断高意向：预算、时间、角色、需求、地区还是其他字段？
+6. 线索现在进哪里：表格、CRM、邮箱、企微、客服系统还是人工转发？
+7. 谁接手跟进？是否能承诺 7 天试点期间及时处理提醒？
 
 ## Pilot Scope
 
 Included:
 
-- One lead source.
-- Three lead categories: urgent, high-value, routine.
+- One high-value inquiry source.
 - First-response copy.
-- Owner alert copy.
-- Spreadsheet or CRM queue.
-- One review call after 7 days.
+- Qualification rules: budget, timing, role, need, urgency.
+- Owner or sales alert.
+- Follow-up queue in Feishu, Airtable, Google Sheet, HubSpot, or existing CRM.
+- 7-day review with captured opportunities and missed-follow-up points.
 
-Not included in the pilot:
+Not included:
 
 - Full CRM rebuild.
-- Paid ad setup.
-- Custom SaaS dashboard.
-- Voice agent.
-- Unlimited workflow changes.
+- Paid ad optimization.
+- Voice call center.
+- Full SaaS dashboard.
+- Unlimited market-specific copy changes.
 
-## Optimization Loop
+## Closing Script
 
-After the pilot launches, review these numbers weekly:
+```text
+这个不需要先重做官网或 CRM。我们先接一个已经有咨询的入口，7 天内上线：
 
-- New leads captured.
+1. 新咨询 60 秒内被回复
+2. 自动问清预算、时机和决策角色
+3. 高意向机会提醒负责人
+4. 进入可复盘的跟进队列
+
+试点费用 ¥8,800。如果多抓住一个高价值机会，就有机会覆盖试点成本。第一版跑通后，再决定是否扩到更多入口或行业话术。
+```
+
+## 14-Day Execution Target
+
+- Day 1: Build 80-contact seed list.
+- Day 2-10: Contact 40 prospects per day.
+- Day 3-14: Follow up day 2 / day 5 / day 9.
+- Target: 360 contacts, 20 replies, 6 calls, 1-2 paid pilots.
+
+## Weekly Optimization Metrics
+
+- New inquiries captured.
 - Average first-response time.
-- Hot leads created.
+- Qualified opportunities created.
 - Owner callbacks completed.
-- Closed jobs attributed to the workflow.
-- Reply copy that caused confusion.
+- Meetings booked.
+- Deals created or proposals sent.
+- High-value inquiries lost before human follow-up.
 
-Change only what improves one of those numbers.
