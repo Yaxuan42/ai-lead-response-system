@@ -92,7 +92,7 @@ Subject: 你们的加盟咨询能否 60 秒内被接住？
 - 自动进入跟进队列
 
 这是针对餐饮 / 茶饮招商的演示：
-https://ai-lead-response-system-git-co-0ee21e-yaxuans-projects-e0e08f08.vercel.app
+https://ai-franchise-leads.vercel.app
 
 如果你愿意，我可以用 15 分钟看一下你们现有招商入口，判断能不能先做一个试点。
 ```

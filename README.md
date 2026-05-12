@@ -22,7 +22,7 @@ http://127.0.0.1:4173/
 Vercel preview:
 
 ```text
-https://ai-lead-response-system-git-co-0ee21e-yaxuans-projects-e0e08f08.vercel.app
+https://ai-franchise-leads.vercel.app
 ```
 
 ## What It Sells
