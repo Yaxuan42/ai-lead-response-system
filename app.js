@@ -3,7 +3,7 @@ const translations = {
     title: "AI 线索响应系统",
     htmlLang: "zh-CN",
     eyebrow: "AI 线索响应系统",
-    headline: "把每条客户咨询在 60 秒内接住。",
+    headline: "60 秒内接住每条客户咨询。",
     "hero.copy": "我帮本地服务商把网站表单、邮件和私信接入自动回复、线索评级、老板提醒和跟进队列，减少漏单。",
     "hero.primaryCta": "预约 15 分钟诊断",
     "hero.secondaryCta": "查看现场演示",
