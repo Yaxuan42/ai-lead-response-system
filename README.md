@@ -1,6 +1,6 @@
-# AI Lead Response System
+# AI Franchise Lead Response System
 
-Bilingual static sales page for an AI lead-response service.
+Bilingual static sales page for an AI lead-response service tailored to restaurant and tea-drink franchise recruitment.
 
 Default language: Chinese. The header switch previews English.
 
@@ -19,12 +19,12 @@ http://127.0.0.1:4173/
 
 ## What It Sells
 
-An implementation service for local businesses:
+An implementation service for chain restaurant and tea brands:
 
-- Connect one or more lead sources.
-- Reply to new leads quickly.
-- Score urgency and deal value.
-- Alert the owner for high-value leads.
-- Keep a follow-up queue.
+- Connect one or more franchise inquiry sources.
+- Reply to franchise candidates quickly.
+- Score budget, city, site readiness, experience, and opening timeline.
+- Alert franchise consultants for high-intent leads.
+- Keep a follow-up queue for funnel review.
 
 The contact form opens an email to `hello@yaxuan.space`.
