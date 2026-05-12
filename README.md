@@ -17,6 +17,14 @@ Open:
 http://127.0.0.1:4173/
 ```
 
+## Deployed Preview
+
+Vercel preview:
+
+```text
+https://ai-lead-response-system-mcrueov12-yaxuans-projects-e0e08f08.vercel.app
+```
+
 ## What It Sells
 
 An implementation service for chain restaurant and tea brands:
